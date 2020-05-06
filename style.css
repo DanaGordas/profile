@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500&family=Montserrat&display=swap');
+
+body {
+  background-color: #D0CDD7;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h2, h1 {
+  color: #0B3948;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+p, a {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Montserrat', sans-serif;
+}
+
+i {
+  font-size: 40px;
+  color: #0B3948;
+}
+
+/*i:hover {
+  opacity: .5;
+}*/
+
+.container {
+  text-align: center;
+  padding: 15px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  width: 600px;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+#btn {
+  transition: ease all 1s;
+  background-color: #416165;
+  padding: 10px 30px;
+  color: #FAFAFA;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  opacity: .5;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.fa-github-square:before {
+  content: "\f092";
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
