@@ -20,12 +20,12 @@ p, a {
 
 i {
   font-size: 40px;
-  color: #0B3948;
+  color: #ACB0BD;
 }
 
-/*i:hover {
+i:hover {
   opacity: .5;
-}*/
+}
 
 .container {
   text-align: center;
