@@ -4,8 +4,8 @@ body {
   background-color: #D0CDD7;
 }
 
-img {
-  border-radius: 50%;
+#profile_picture {
+  border-radius: 20%;
 }
 
 h2, h1 {
@@ -60,7 +60,7 @@ i:hover {
 
 .list-inline li {
   display: inline-block;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 .fa-github-square:before {
